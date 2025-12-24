@@ -34,6 +34,6 @@
 
     <h2>Liên hệ</h2>
     <p>Hotline: (+84) 932 788 120</p>
-    <p>Email: business@fitfood.vn</p>
+    <p>Facebook: Bếp Lành</p>
 </body>
 </html>
