@@ -1,90 +1,196 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bếp Lành – Bữa ăn lành mạnh giao tận nơi</title>
-    <meta name="description" content="Bếp Lành cung cấp suất ăn healthy, cơm văn phòng, ready-to-eat và tiệc teabreak tại TP.HCM.">
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            line-height: 1.6;
-            background: #fafafa;
-            color: #333;
-        }
-        h1, h2, h3 {
-            color: #2e7d32;
-        }
-        .cta {
-            margin: 30px 0;
-            text-align: center;
-        }
-        .cta a {
-            display: inline-block;
-            padding: 15px 25px;
-            background: #2e7d32;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-size: 18px;
-        }
-        .cta a:hover {
-            background: #256428;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bếp Lành – Bữa ăn lành mạnh giao tận nơi</title>
+  <meta name="description" content="Bếp Lành cung cấp suất ăn healthy, cơm văn phòng, ready-to-eat và tiệc teabreak tại TP.HCM." />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
-
-<!-- pic -->
-<section class="pic">
-  <div class="container">
-    <h1>BỮA ĂN LÀNH MẠNH, GIAO ĐẾN TẬN NƠI</h1>
-    <p>Bếp Lành mang đến giải pháp ăn uống tiện lợi, tiết kiệm thời gian, giúp bạn chăm sóc sức khỏe chủ động mỗi ngày.</p>
-
-    <div class="cta">
-      <a href="https://zalo.me/XXXXXXX" target="_blank" rel="noopener">
-        Nhắn Zalo để đặt suất ăn
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- SERVICES -->
-<section>
-  <div class="container">
-    <h2>4 giải pháp dành cho bạn</h2>
-
-    <div class="grid">
-      <div class="card">
-        <h3>Cơm Healthy</h3>
-        <p>Nguyên liệu cao cấp như cá hồi, cá ngừ, steak bò Mỹ, tôm càng… phù hợp người ăn eat-clean.</p>
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">
+        <div class="brand__logo">BL</div>
+        <div class="brand__text">
+          <div class="brand__name">Bếp Lành</div>
+          <div class="brand__tag">Healthy • Eat-clean • Giao tận nơi</div>
+        </div>
       </div>
-      <div class="card">
-        <h3>Cơm Văn Phòng</h3>
-        <p>Giá hợp lý, giao tận nơi, menu hơn 200 món Việt – Á – Âu. Phù hợp công ty, bệnh viện, trường học.</p>
-      </div>
-      <div class="card">
-        <h3>Cơm Ready-to-Eat</h3>
-        <p>Phần ăn đóng gói sẵn, tiện lợi cho phòng gym, co-working space, co-working, quán cafe.</p>
-      </div>
-      <div class="card">
-        <h3>Tiệc Teabreak</h3>
-        <p>Finger food lành mạnh: bánh healthy, snack ngũ cốc, nước ép lạnh, salad…</p>
+
+      <div class="topbar__actions">
+        <a class="btn btn--ghost" href="#dichvu">Xem dịch vụ</a>
+        <a class="btn btn--primary" href="https://zalo.me/XXXXXXX" target="_blank" rel="noopener">
+          Nhắn Zalo đặt suất
+        </a>
       </div>
     </div>
-  </div>
-</section>
+  </header>
 
-<!-- CONTACT -->
-<section>
-  <div class="container">
-    <h2>Liên hệ</h2>
-    <p>📞 Hotline: <strong>0932 788 120</strong></p>
-    <p>📘 Facebook: Bếp Lành</p>
-  </div>
-</section>
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <h1>BỮA ĂN LÀNH MẠNH, GIAO ĐẾN TẬN NƠI</h1>
+          <p class="lead">
+            Bếp Lành mang đến giải pháp ăn uống tiện lợi, tiết kiệm thời gian,
+            giúp bạn chăm sóc sức khỏe chủ động mỗi ngày.
+          </p>
 
+          <div class="hero__cta">
+            <a class="btn btn--primary btn--lg" href="https://zalo.me/XXXXXXX" target="_blank" rel="noopener">
+              Nhắn Zalo để đặt suất ăn
+            </a>
+            <a class="btn btn--ghost btn--lg" href="#lienhe">Xem liên hệ</a>
+          </div>
+
+          <div class="badges">
+            <span class="badge">Giao nhanh</span>
+            <span class="badge">Menu đa dạng</span>
+            <span class="badge">Phù hợp eat-clean</span>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <div class="card">
+            <div class="card__title">Gợi ý đặt nhanh</div>
+            <div class="card__body">
+              <div class="mini">
+                <div class="mini__label">Bạn muốn loại nào?</div>
+                <div class="mini__chips">
+                  <span class="chip">Healthy</span>
+                  <span class="chip">Văn phòng</span>
+                  <span class="chip">Ready-to-eat</span>
+                  <span class="chip">Teabreak</span>
+                </div>
+              </div>
+
+              <div class="mini">
+                <div class="mini__label">Nhắn tin mẫu:</div>
+                <div class="copybox">
+                  “Mình muốn đặt suất ăn [Healthy/Văn phòng], số lượng …, giao tới …, thời gian …”
+                </div>
+              </div>
+
+              <a class="btn btn--primary btn--full" href="https://zalo.me/XXXXXXX" target="_blank" rel="noopener">
+                Mở Zalo OA ngay
+              </a>
+              <div class="hint">*Thay link Zalo ở 3 chỗ: topbar + 2 nút trong hero.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="dichvu">
+      <div class="container">
+        <div class="section__head">
+          <h2>4 giải pháp dành cho bạn</h2>
+          <p class="muted">Chọn đúng nhu cầu, đặt nhanh qua Zalo, giao tận nơi.</p>
+        </div>
+
+        <div class="grid">
+          <article class="service">
+            <div class="service__icon">🥗</div>
+            <h3>Cơm Healthy</h3>
+            <p>Nguyên liệu cao cấp như cá hồi, cá ngừ, steak bò Mỹ, tôm càng… phù hợp người ăn eat-clean.</p>
+          </article>
+
+          <article class="service">
+            <div class="service__icon">🍱</div>
+            <h3>Cơm Văn Phòng</h3>
+            <p>Giá hợp lý, giao tận nơi, menu hơn 200 món Việt – Á – Âu. Phù hợp công ty, bệnh viện, trường học.</p>
+          </article>
+
+          <article class="service">
+            <div class="service__icon">🏋️</div>
+            <h3>Cơm Ready-to-Eat</h3>
+            <p>Phần ăn đóng gói sẵn, tiện lợi cho phòng gym, co-working space, quán cafe.</p>
+          </article>
+
+          <article class="service">
+            <div class="service__icon">☕</div>
+            <h3>Tiệc Teabreak</h3>
+            <p>Finger food lành mạnh: bánh healthy, snack ngũ cốc, nước ép lạnh, salad…</p>
+          </article>
+        </div>
+
+        <div class="section__cta">
+          <a class="btn btn--primary btn--lg" href="https://zalo.me/XXXXXXX" target="_blank" rel="noopener">
+            Nhắn Zalo để được tư vấn & đặt suất
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why -->
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section__head">
+          <h2>Vì sao chọn Bếp Lành?</h2>
+          <p class="muted">Ngắn gọn, rõ ràng, tập trung vào trải nghiệm đặt hàng.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="feature">
+            <h3>Tiện lợi</h3>
+            <p>Đặt nhanh qua Zalo, giao tận nơi. Phù hợp người bận rộn.</p>
+          </div>
+          <div class="feature">
+            <h3>Đa dạng</h3>
+            <p>Nhiều lựa chọn theo mục tiêu: healthy, văn phòng, ready-to-eat.</p>
+          </div>
+          <div class="feature">
+            <h3>Lành mạnh</h3>
+            <p>Ưu tiên khẩu phần cân đối, nguyên liệu phù hợp eat-clean.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="lienhe">
+      <div class="container">
+        <div class="section__head">
+          <h2>Liên hệ</h2>
+          <p class="muted">Bạn nhắn Zalo là nhanh nhất. Hotline để gọi trực tiếp.</p>
+        </div>
+
+        <div class="contact">
+          <div class="contact__card">
+            <div class="contact__label">Hotline</div>
+            <div class="contact__value">0932 788 120</div>
+            <div class="contact__hint">Giờ nhận đơn: (bạn điền sau)</div>
+          </div>
+
+          <div class="contact__card">
+            <div class="contact__label">Facebook</div>
+            <div class="contact__value">Bếp Lành</div>
+            <div class="contact__hint">Thêm link fanpage khi có</div>
+          </div>
+
+          <div class="contact__card">
+            <div class="contact__label">Zalo OA</div>
+            <div class="contact__value">
+              <a class="link" href="https://zalo.me/XXXXXXX" target="_blank" rel="noopener">Mở chat Zalo</a>
+            </div>
+            <div class="contact__hint">CTA chính để chốt đơn</div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="muted">© <span id="y"></span> Bếp Lành. Landing v1.</div>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
+</html>
